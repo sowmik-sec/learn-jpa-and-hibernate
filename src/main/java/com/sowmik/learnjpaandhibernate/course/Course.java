@@ -15,7 +15,7 @@ public class Course {
         this.author = author;
     }
 
-    // getters
+    // getters & setters
 
     public long getId() {
         return id;
@@ -29,7 +29,18 @@ public class Course {
         return author;
     }
 
-    // toString
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+// toString
 
     @Override
     public String toString() {
